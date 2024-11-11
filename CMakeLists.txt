@@ -132,7 +132,7 @@ file(GLOB_RECURSE RENDERER_SOURCES
     src/*.h
     src/*.c
 )
-target_sources(Renderer PRIVATE ${RENDERER_SOURCES})
+target_sources(Renderer PRIVATE ${RENDERER_SOURCES}  ${CMAKE_SOURCE_DIR}/libs/glad/src/glad.c)
 
 # Include directories
 target_include_directories(Renderer PRIVATE

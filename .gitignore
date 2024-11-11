@@ -35,5 +35,5 @@
 Makefile
 *.make
 
-build/*
-libs/*
+build/
+libs/

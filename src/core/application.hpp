@@ -1,4 +1,5 @@
 #pragma once
+#include<utils/logger.hpp>
 
 class Application {
 public:
@@ -8,5 +9,5 @@ public:
     int run();
     
 private:
-    // Add your application-specific members here
+   
 };
